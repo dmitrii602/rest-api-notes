@@ -31,7 +31,7 @@ function CreateNote(props) {
     }
 
     if (goBack) {
-        return <Navigate to="/" />
+        return <Navigate to="/rest-api-notes" />
     }
 
     return (

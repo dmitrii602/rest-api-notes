@@ -14,7 +14,7 @@ export default function App() {
     <Router>
       <>
         <Routes>
-          <Route path="/" element={<Notes />} />
+          <Route path="/rest-api-notes/" element={<Notes />} />
           <Route path="/notes/:id/edit" element={<EditNote />} />
           <Route path="/notes/create" element={<CreateNote />} />
         </Routes>
